@@ -1,0 +1,90 @@
+/* styles.css */
+
+/* Estilos generales del cuerpo del documento */
+body {
+    font-family: 'Arial', sans-serif; /* Fuente de texto */
+    background-color: #f4f4f4; /* Color de fondo */
+    margin: 0; /* Elimina el margen predeterminado */
+    padding: 20px; /* Agrega espacio interno */
+}
+
+/* Estilos del contenedor principal de la aplicación */
+#app {
+    background: white; /* Fondo blanco */
+    max-width: 600px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px; /* Espaciado interno */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilos para el encabezado h1 */
+h1 {
+    color: #333; /* Color de texto */
+}
+
+/* Estilos para campos de entrada de texto */
+input[type="text"] {
+    padding: 10px; /* Espaciado interno */
+    margin-right: 5px; /* Margen derecho */
+    border: 1px solid #ddd; /* Borde con color */
+    border-radius: 4px; /* Borde redondeado */
+    width: calc(100% - 120px); /* Ancho con cálculo para alinear con otros elementos */
+}
+
+/* Estilos para botones */
+button {
+    padding: 10px 20px; /* Espaciado interno */
+    background-color: #007bff; /* Color de fondo */
+    color: white; /* Color de texto */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+}
+
+/* Estilos para botones al pasar el ratón */
+button:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el ratón */
+}
+
+/* Estilos para listas no ordenadas (ul) */
+ul {
+    list-style: none; /* Elimina los marcadores de lista */
+    padding: 0; /* Elimina el relleno predeterminado */
+}
+
+/* Estilos para elementos de lista (li) */
+li {
+    padding: 10px; /* Espaciado interno */
+    border-bottom: 1px solid #ddd; /* Borde inferior con color */
+    display: flex; /* Usa el modelo de caja flexible */
+    align-items: center; /* Alinea verticalmente al centro */
+    justify-content: space-between; /* Distribución de espacio entre elementos */
+}
+
+/* Estilos para el último elemento de lista (li) */
+li:last-child {
+    border-bottom: none; /* Elimina el borde inferior del último elemento */
+}
+
+/* Estilos para casillas de verificación (checkbox) */
+.checkbox {
+    margin-right: 20px; /* Margen derecho */
+}
+
+/* Estilos para botones de eliminación */
+.delete-btn {
+    background-color: #dc3545; /* Color de fondo */
+    color: white; /* Color de texto */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Borde redondeado */
+    padding: 5px 10px; /* Espaciado interno */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+}
+
+/* Estilos para botones de eliminación al pasar el ratón */
+.delete-btn:hover {
+    background-color: #bd2130; /* Color de fondo al pasar el ratón */
+}
+
+
+/*# sourceMappingURL=/styles.8986bff4.css.map */
